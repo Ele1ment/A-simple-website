@@ -1,0 +1,382 @@
+/*Шрифты*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/*---------Шапка---------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.b {
+    background-color: rgb(54, 44, 102);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.b1 {
+    background-color: rgb(54, 44, 102);
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(28, 20, 75);
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container6 {
+    width: 60%; 
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+
+    
+}
+.bg{
+    background:url(images/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+    width: 100%;
+    height:500px;
+} 
+.h {
+
+    display: grid;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+	grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 945px;
+}
+.h2 {
+    width: 455px;
+}
+/*---------Первый блок---------*/
+
+.hg{
+    position: relative;
+    width: 500px;
+    margin-left: 30%;
+    margin-right: auto; 
+    color: white;
+}
+
+.text1{
+    position: relative;
+    width: 400px;
+    margin-left: 30%;
+    margin-right: auto; 
+    color: white;
+    font-size: 17px;
+}
+
+.b2 {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 350px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background: rgb(54, 224, 142);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 12px;
+}
+.b2:hover{
+    background-color: rgb(31, 131, 83);
+}
+.sms{
+    background:url(images/sms.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    z-index: 10;
+    margin-left: 850px;
+    margin-top: -200px;
+    width: 70%;
+    height:400px;
+    position: static;
+} 
+/*---------Второй блок---------*/
+.container5 {
+    width: 100%; 
+    margin-left: -20px;
+    padding: 20px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    
+
+}
+
+.picc{
+  width: 250px;
+  position:absolute;
+  margin-top: 50px;
+}
+.picc1{
+    margin-top: 20%;
+}
+.picc1{
+    width: 4%;
+    margin-right: 100px;
+    float: right;
+    margin-top: -220px;
+    
+}
+.picc2{
+    width: 4%;
+    margin-right: 100px;
+    float: right;
+    margin-top: -200px;
+}
+
+.h2 {
+    width: 100%;
+}
+
+.textt1 {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(53, 49, 49);
+    font-size: 34px;
+}
+
+.textt2 {
+    width: 560px;
+    height: 0px;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+/*---------Третий блок---------*/
+.container4 {
+    margin: 0 auto;
+    margin-left: -20px;
+    padding: 20px;
+    background-color: rgb(124, 110, 134);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+     
+}
+
+.picc3{
+    margin-left: auto;
+    margin-right: auto; 
+    height: 90%;
+    width: 90%;
+    display: block;
+    z-index: -1;
+}
+.text3{
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;  
+    color: rgb(255, 255, 255);
+    margin-top: -10px;  
+}
+
+.H2{
+
+color: white;
+}
+
+
+/*---------Блок подписки---------*/
+
+.container {
+    margin: 0 auto;
+    margin-left: -20px;
+    padding: 20px;
+    background-color: rgb(216, 211, 211);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.plan-text {
+    max-width: 400px;
+    margin-right: 20px;
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+}
+
+.plan-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    width: 300px;
+    
+    
+}
+
+.plan-card:hover {
+    transform: scale(1.05);
+}
+
+.free {
+    border: 4px solid #2196F3;
+}
+
+.professional {
+    border: 4px solid #4CAF50;
+}
+
+.enterprise {
+    border: 4px solid #FFC107;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1565C0;
+}
+/*---------Видео---------*/
+
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+.main {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+/*---------Футтер---------*/
+.container2 {
+    width: 100%;
+    padding: 20px 0; 
+    background-color: #3b3838;
+    box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
+}
+.HH3{
+color: white;
+
+}
+.form-group {
+    margin-bottom: 20px;
+    color: #333;
+    overflow: hidden; 
+}
+
+.form-group label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #922727;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+
