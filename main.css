@@ -1,14 +1,10 @@
 /*Шрифты*/
 
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 
-
-/*---------Шап1111ка---------*/
+/*---------Шапка---------*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -256,7 +252,7 @@ color: white;
     transition: transform 0.3s ease;
     margin-right: 10px;
     width: 300px;
-    border-bottom-style: 100px;
+    
     
 }
 
